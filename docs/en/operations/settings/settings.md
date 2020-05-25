@@ -1262,4 +1262,33 @@ Possible values:
 
 Default value: 16.
 
+## background_move_pool_size {#background_move_pool_size}
+
+Sets the number of threads performing background moves in table engines. This setting is applied at ClickHouse server start and can’t be changed in a user session.
+Possible values:
+
+-   Any positive integer.
+
+Default value: 8.
+
+## background_schedule_pool_size {#background_schedule_pool_size}
+
+Sets the number of threads performing background tasks for replicated tables, Kafka streaming, DNS cache updates. This setting is applied at ClickHouse server start and can’t be changed in a user session.
+
+Possible values:
+
+-   Any positive integer.
+
+Default value: 16.
+
+## background_distributed_schedule_pool_size {#background_distributed_schedule_pool_size}
+
+Sets the number of threads performing background tasks for distributed sends. This setting is applied at ClickHouse server start and can’t be changed in a user session.
+
+Possible values:
+
+-   Any positive integer.
+
+Default value: 16.
+
 [Original article](https://clickhouse.tech/docs/en/operations/settings/settings/) <!-- hide -->
