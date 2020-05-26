@@ -213,4 +213,8 @@ After this, you can launch the server, create a `MergeTree` table, move the data
 
 If the data in ZooKeeper was lost or damaged, you can save data by moving it to an unreplicated table as described above.
 
+**See also**
+
+-   [background_schedule_pool_size](../../../operations/settings/settings.md#background_schedule_pool_size)
+
 [Original article](https://clickhouse.tech/docs/en/operations/table_engines/replication/) <!--hide-->

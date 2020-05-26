@@ -649,4 +649,8 @@ Moving data does not interfere with data replication. Therefore, different stora
 After the completion of background merges and mutations, old parts are removed only after a certain amount of time (`old_parts_lifetime`).
 During this time, they are not moved to other volumes or disks. Therefore, until the parts are finally removed, they are still taken into account for evaluation of the occupied disk space.
 
+**See Also** 
+-   [background_move_pool_size](../../../operations/settings/settings.md#background_move_pool_size)
+
 [Original article](https://clickhouse.tech/docs/ru/operations/table_engines/mergetree/) <!--hide-->
+

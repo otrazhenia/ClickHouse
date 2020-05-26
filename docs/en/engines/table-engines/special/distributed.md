@@ -146,5 +146,6 @@ When the max\_parallel\_replicas option is enabled, query processing is parallel
 **See Also**
 
 -   [Virtual columns](index.md#table_engines-virtual_columns)
+-   [background_schedule_pool_size](../../../operations/settings/settings.md#background_schedule_pool_size)
 
 [Original article](https://clickhouse.tech/docs/en/operations/table_engines/distributed/) <!--hide-->
