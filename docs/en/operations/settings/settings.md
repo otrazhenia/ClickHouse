@@ -1264,7 +1264,7 @@ Default value: 16.
 
 ## background_move_pool_size {#background_move_pool_size}
 
-Sets the number of threads performing background moves of data parts for [MergeTree engine](../../engines/table-engines/mergetree-family/mergetree.md#table_engine-mergetree-multiple-volumes) tables. This setting is applied at ClickHouse server start and can’t be changed in a user session.
+Sets the number of threads performing background moves of data parts for [MergeTree](../../engines/table-engines/mergetree-family/mergetree.md#table_engine-mergetree-multiple-volumes)-engine tables. This setting is applied at ClickHouse server start and can’t be changed in a user session.
 
 Possible values:
 
