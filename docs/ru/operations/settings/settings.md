@@ -1175,7 +1175,7 @@ Default value: 0.
 
 ## background_distributed_schedule_pool_size {#background_distributed_schedule_pool_size}
 
-Задает количество потоков для выполнения фоновых задач. Работает для таблиц с движком [Distributed](../../engines/table-engines/special/distributed.md).Настройка применяется при запуске сервера ClickHouse и не может быть изменена в пользовательском сеансе.
+Задает количество потоков для выполнения фоновых задач. Работает для таблиц с движком [Distributed](../../engines/table-engines/special/distributed.md). Настройка применяется при запуске сервера ClickHouse и не может быть изменена в пользовательском сеансе.
 
 Допустимые значения:
 
