@@ -957,7 +957,7 @@ ClickHouse пишет и читает сообщения `Protocol Buffers` в �
 
 URL-адрес реестра схем настраивается с помощью [format\_avro\_schema\_registry\_url](../operations/settings/settings.md#format_avro_schema_registry_url).
 
-### Соответствие типов данных {##sootvetstvie-tipov-dannykh-0}
+### Соответствие типов данных {#sootvetstvie-tipov-dannykh-0}
 
 Такое же, как в [Avro](#data-format-avro).
 
