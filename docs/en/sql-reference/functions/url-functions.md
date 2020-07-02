@@ -208,7 +208,7 @@ Type: `String`.
 Query:
 
 ``` sql
-SELECT netloc('http://paul@www.example.com:80/')
+SELECT netloc('http://paul@www.example.com:80/');
 ```
 
 Result:
