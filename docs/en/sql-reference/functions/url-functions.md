@@ -183,6 +183,41 @@ SELECT decodeURLComponent('http://127.0.0.1:8123/?query=SELECT%201%3B') AS Decod
 │ http://127.0.0.1:8123/?query=SELECT 1; │
 └────────────────────────────────────────┘
 ```
+### netloc {#netloc}
+
+Extracts network location from a URL. Similar as [urlparse.netloc](https://docs.python.org/2/library/urlparse.html) in Python.
+
+**Syntax**
+
+```sql
+netloc(URL)
+```
+
+**Parameters**
+
+-   `url` — URL. [String](../../sql-reference/data-types/string.md).
+
+**Returned value**
+
+-   Login information (optional), host name, and port number (optional).
+
+Type: `String`.
+
+**Example**
+
+Query:
+
+``` sql
+SELECT netloc('http://paul@www.example.com:80/')
+```
+
+Result:
+
+``` text
+┌─netloc('http://paul@www.example.com:80/')─┐
+│ paul@www.example.com:80                   │
+└───────────────────────────────────────────┘
+```
 
 ## Functions that Remove Part of a URL {#functions-that-remove-part-of-a-url}
 
