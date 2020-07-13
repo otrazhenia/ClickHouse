@@ -1262,4 +1262,16 @@ Possible values:
 
 Default value: 16.
 
+## parallel_distributed_insert_select {#parallel_distributed_insert_select}
+
+Enables parallel distributed `INSERT SELECT` query on local tables on every shard.
+
+Possible values:
+
+-   0 — Disabled.
+-   1 — Enabled.
+
+Default value: 0.
+
+
 [Original article](https://clickhouse.tech/docs/en/operations/settings/settings/) <!-- hide -->
