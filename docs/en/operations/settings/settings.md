@@ -1264,7 +1264,7 @@ Default value: 16.
 
 ## parallel_distributed_insert_select {#parallel_distributed_insert_select}
 
-Enables parallel distributed `INSERT SELECT` query on local tables on every shard.
+Enables parallel distributed `INSERT` ... `SELECT` query on local tables on every shard, if both tables use the same cluster, and both tables are either [replicated](../../engines/table-engines/mergetree-family/replication.md) or non-replicated.
 
 Possible values:
 
