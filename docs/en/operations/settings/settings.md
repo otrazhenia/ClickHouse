@@ -1447,6 +1447,17 @@ Sets [Confluent Schema Registry](https://docs.confluent.io/current/schema-regist
 
 Default value: `Empty`.
 
+## input_format_avro_allow_missing_fields {#input_format_avro_allow_missing_fields}
+
+Enables using fields not found in Avro schema. Allows using default value instead. The setting is useful for Kafka engine.
+
+Possible values:
+
+-   0 — Disabled.
+-   1 — Enabled.
+
+Default value: 0.
+
 ## background\_pool\_size {#background_pool_size}
 
 Sets the number of threads performing background operations in table engines (for example, merges in [MergeTree engine](../../engines/table-engines/mergetree-family/index.md) tables). This setting is applied from `default` profile at ClickHouse server start and can’t be changed in a user session. By adjusting this setting, you manage CPU and disk load. Smaller pool size utilizes less CPU and disk resources, but background processes advance slower which might eventually impact query performance.
