@@ -1449,7 +1449,7 @@ Default value: `Empty`.
 
 ## input_format_avro_allow_missing_fields {#input_format_avro_allow_missing_fields}
 
-Enables using fields not found in Avro schema. Allows using default value instead. The setting is useful for Kafka engine.
+Allows using fields not found in [Avro](../../interfaces/formats.md#data-format-avro) or [AvroConfluent](../../interfaces/formats.md#data-format-avro-confluent) format schema. When field is not found in schema, uses default value instead of error.
 
 Possible values:
 
